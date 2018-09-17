@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5CBC35214FA9B800A8B8E7 /* CURL_denemesi.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CBC32214FA9B600A8B8E7 /* CURL_denemesi.sqlite-shm */; };
+		2E5CBC36214FA9B800A8B8E7 /* CURL_denemesi.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CBC33214FA9B700A8B8E7 /* CURL_denemesi.sqlite-wal */; };
+		2E5CBC37214FA9B800A8B8E7 /* CURL_denemesi.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CBC34214FA9B700A8B8E7 /* CURL_denemesi.sqlite */; };
 		2EABE52E2141480A00B2D886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABE52D2141480A00B2D886 /* AppDelegate.swift */; };
 		2EABE5302141480A00B2D886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABE52F2141480A00B2D886 /* ViewController.swift */; };
 		2EABE5332141480A00B2D886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EABE5312141480A00B2D886 /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E5CBC32214FA9B600A8B8E7 /* CURL_denemesi.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CURL_denemesi.sqlite-shm"; sourceTree = "<group>"; };
+		2E5CBC33214FA9B700A8B8E7 /* CURL_denemesi.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CURL_denemesi.sqlite-wal"; sourceTree = "<group>"; };
+		2E5CBC34214FA9B700A8B8E7 /* CURL_denemesi.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CURL_denemesi.sqlite; sourceTree = "<group>"; };
 		2EABE52A2141480A00B2D886 /* CURL denemesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CURL denemesi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EABE52D2141480A00B2D886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EABE52F2141480A00B2D886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 		2EABE52C2141480A00B2D886 /* CURL denemesi */ = {
 			isa = PBXGroup;
 			children = (
+				2E5CBC34214FA9B700A8B8E7 /* CURL_denemesi.sqlite */,
+				2E5CBC32214FA9B600A8B8E7 /* CURL_denemesi.sqlite-shm */,
+				2E5CBC33214FA9B700A8B8E7 /* CURL_denemesi.sqlite-wal */,
 				2EABE52D2141480A00B2D886 /* AppDelegate.swift */,
 				2EABE52F2141480A00B2D886 /* ViewController.swift */,
 				2EABE5312141480A00B2D886 /* Main.storyboard */,
@@ -156,7 +165,10 @@
 			files = (
 				2EABE53B2141480F00B2D886 /* LaunchScreen.storyboard in Resources */,
 				2EABE543214155E800B2D886 /* Default-568h@2x.png in Resources */,
+				2E5CBC36214FA9B800A8B8E7 /* CURL_denemesi.sqlite-wal in Resources */,
+				2E5CBC35214FA9B800A8B8E7 /* CURL_denemesi.sqlite-shm in Resources */,
 				2EABE5382141480F00B2D886 /* Assets.xcassets in Resources */,
+				2E5CBC37214FA9B800A8B8E7 /* CURL_denemesi.sqlite in Resources */,
 				2EABE5332141480A00B2D886 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,15 +181,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CURL denemesi-checkManifestLockResult.txt",
 			);
@@ -191,16 +199,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CURL denemesi/Pods-CURL denemesi-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
